@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class GroceryList {
     ArrayList<Groceryitemorder> list =new ArrayList<>();
-    private int size=0 ;
+    private int size=list.size();
     public GroceryList(){
 
     }
